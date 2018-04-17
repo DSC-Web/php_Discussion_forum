@@ -209,18 +209,27 @@ function get_results()
         ";
     }
 }
-//function edit_user()
-//{
-//    global $user_id;
-//    global $con;
-//    if(isset($_POST['edit']))
-//    {
-//        $username=$_POST['name'];
-//        $password=$_POST['password'];
-//        $email=$_POST['email'];
-//        $country=$_POST['country'];
-//
-//    }
-//}
+function edit_user()
+{
+    global $user_id;
+    global $con;
+    if(isset($_POST['edit']))
+    {
+        $username=$_POST['name'];
+        $password=$_POST['password'];
+        $email=$_POST['email'];
+        $country=$_POST['country'];
+
+        $update="update users set username='$username',password='$password',email='$email',user_country='$country'WHERE user_id='$user_id'";
+        $run=mysqli_query($con,$update);
+
+        if($run)
+        {
+            echo "<script>alert('Your Profile Updated !!!')</script>";
+            echo "<script>window.open('home.php','_self')</script>";
+        }
+
+    }
+}
 
 ?>

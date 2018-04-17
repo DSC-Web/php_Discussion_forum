@@ -16,6 +16,7 @@ if(isset($_POST['email']))
         $row =mysqli_fetch_assoc($res);
         $_SESSION['user_id'] = $row['user_id'];
         $_SESSION['email'] =$row['email'];
+
         echo "<script>window.open('home.php','_self')</script>";
     }
     else{

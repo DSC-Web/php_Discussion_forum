@@ -45,7 +45,7 @@ else{
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="edit_profile.php">About Me</a>
+                    <a class="nav-link" href="edit_profile.php">Edit Profile</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Services</a>
@@ -91,40 +91,14 @@ else{
                             <input class="float-right  btn btn-success" name="submit" type="submit" value="Submit">
                     </form>
                     <?php insert_post(); ?>
-<!--                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>-->
-<!--                    <a href="#" class="btn btn-primary">Read More &rarr;</a>-->
                 </div>
                 <div class="card-footer text-muted">
-<!--                    Posted on January 1, 2017 by-->
-<!--                    <a href="#">Start Bootstrap</a>-->
+
                 </div>
             </div>
 
             <!-- Post -->
             <?php get_posts(); ?>
-<!--            <div class="card mb-4">-->
-<!--                <div class="card-body">-->
-<!--                    <h2 class="card-title">Post Title</h2>-->
-<!--                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>-->
-<!--                    <a href="#" class="btn btn-primary">Read More &rarr;</a>-->
-<!--                </div>-->
-<!--                <div class="card-footer text-muted">-->
-<!--                    Posted on January 1, 2017 by-->
-<!--                    <a href="#">Start Bootstrap</a>-->
-<!--                </div>-->
-<!--            </div>-->
-
-            <!--Post -->
-
-            <!-- Pagination -->
-<!--            <ul class="pagination justify-content-center mb-4">-->
-<!--                <li class="page-item">-->
-<!--                    <a class="page-link" href="#">&larr; Older</a>-->
-<!--                </li>-->
-<!--                <li class="page-item disabled">-->
-<!--                    <a class="page-link" href="#">Newer &rarr;</a>-->
-<!--                </li>-->
-<!--            </ul>-->
 
         </div>
 
@@ -132,7 +106,6 @@ else{
         <div class="col-md-4">
 
             <div class="card my-4">
-<!--                <h5 class="card-header">Search</h5> -->
                 <img class="card-img-top" src="images/manager-512.jpg" style="height: 290px; padding-right: 20px;padding-left: 20px;" alt="Card image cap">
                 <div class="card-body">
                     <?php

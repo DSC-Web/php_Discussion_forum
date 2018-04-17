@@ -50,7 +50,7 @@ else{
                         </a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="edit_profile.php">About Me</a>
+                        <a class="nav-link" href="edit_profile.php">Edit Profile</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Services</a>
@@ -79,7 +79,7 @@ else{
                 <div class="card mb-4">
                     <div class="card-body">
                         <h3 class="card-title"><strong>Please Enter Your Updated Details ...</strong> </h3>
-                        <form action="home.php?id=<?php echo $user_id; ?>" method="post">
+                        <form action="" method="post">
                             <input type="text" class="form-control" value="<?php echo $row['username'] ?>" name="name" required id="form_field">
                             <input type="password" class="form-control" value="<?php echo $user_password; ?>" id="form_field" name="password">
                             <input type="email" class="form-control" value="<?php echo $row['email'];?>" id="form_field" name="email">
