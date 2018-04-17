@@ -1,0 +1,37 @@
+body
+{
+    overflow: hidden;
+    height: 100%;
+    background: linear-gradient(to right , rgba(104, 110, 99, 0.8), rgba(40, 18, 18, 0.65)),url("front.jpg");
+    background-size: cover;
+}
+ul{
+    padding-top: 15px;
+    color: white;
+    font-family:sans-serif;
+    font-style: normal;
+}
+td{
+    padding-left: 10px;
+    font-style: normal;
+    color: white;
+}
+#btn{
+    float: right;
+    margin-bottom: 6px;
+} 
+#img1{
+    width: 88%;
+    opacity: 0.9;
+    height: 400px;
+    margin-top: 40px;
+    border-radius: 6px;;
+}
+a{
+    text-decoration: none;
+}
+.wrapper{
+    margin-left: 20px;
+    background-size: cover;
+
+}
